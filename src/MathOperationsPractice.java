@@ -104,6 +104,9 @@ public class MathOperationsPractice {
             int nilaiku5 = 88;
             double rataRata = (nilaiku1+ nilaiku2 + nilaiku3 + nilaiku4 + nilaiku5) / 5;
             // - Print semua hasil dengan format yang proper (pertimbangkan menggunakan String.format())
+            System.out.println(String.format("Jarak tempuh = %.2f km", jarak));
+            System.out.println(String.format("Jumlah setelah bunga majemuk = %.2f", jumlah));
+            System.out.println(String.format("Rata-rata nilai ujian = %.2f ", rataRata));
         }
     }
 
